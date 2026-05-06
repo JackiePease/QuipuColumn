@@ -1,6 +1,6 @@
 # QuipuColumn
 
-This was a project I did for [Civic Data Cooperative's Fesival](https://civicdatacooperative.com/festival-of-data/) in Liverpool, an interactive 3-day event, which took place on 5,6,7 February 2026.
+This was a project I did for [Civic Data Cooperative's Fesival of Data](https://civicdatacooperative.com/festival-of-data/) in Liverpool, an interactive 3-day event, which took place on 5,6,7 February 2026.
 
 With children from Lawrence Primary School, and volunteers from Liverpool University, I made a ![Quipu Column](/photos/Original_Quipu_Column_For_Festival), with knotted cords and LED strips hanging down from a central column made from a clear HIPS pipe and an Armadillo bike lane separator. 
 
@@ -12,7 +12,7 @@ In the end I didn't use the LEDs when showing this at Wirral MakeFest, but the o
 
 ## Files in this Repository
 ### 3D Printing and Laser Cutting Files (all designed in OnShape)
-![Small 3D printed Maquette](/'3D_printing_and_laser_cutting_files/6_boroughs.stl)
+![Small 3D printed Maquette](/3D_printing_and_laser_cutting_files/6_boroughs.stl)
 #### For 50mm pipe
 ![Corner Part](/3D_printing_and_laser_cutting_files/for_50mm_pipe/corner_part.dxf) - corner for laser cut hexagon edge shape DXF
 ![Hold Bar](/3D_printing_and_laser_cutting_files/for_50mm_pipe/hold_bar.stl) - unused 3D printed side part for ropes to go attach to at the base (difficult to print)
