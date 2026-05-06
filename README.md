@@ -2,7 +2,7 @@
 
 This was a project I did for [Civic Data Cooperative's Fesival of Data](https://civicdatacooperative.com/festival-of-data/) in Liverpool, an interactive 3-day event, which took place on 5,6,7 February 2026.
 
-With children from Lawrence Primary School, and volunteers from Liverpool University, I made a ![Quipu Column](/photos/Original_Quipu_Column_For_Festival), with knotted cords and LED strips hanging down from a central column made from a clear HIPS pipe and an Armadillo bike lane separator. 
+With children from Lawrence Primary School, and volunteers from Liverpool University, I made a ![Quipu Column](/photos/Original_Quipu_Column_For_Festival/Quipu_at_festival.png), with knotted cords and LED strips hanging down from a central column made from a clear HIPS pipe and an Armadillo bike lane separator. 
 
 The LED strips were fed through the pipe to a disk at the bottom and controlled by 3 [MCQN Ltd My Bikes Got LED boards](https://github.com/mcqn/my-bikes-got-led).
 
