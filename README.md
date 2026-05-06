@@ -2,7 +2,7 @@
 
 This was a project I did for [Civic Data Cooperative's Fesival of Data](https://civicdatacooperative.com/festival-of-data/) in Liverpool, an interactive 3-day event, which took place on 5,6,7 February 2026.
 
-With children from Lawrence Primary School, and volunteers from Liverpool University, I made a ![Quipu Column] with knotted cords and LED strips hanging down from a central column made from a clear HIPS pipe and an Armadillo bike lane separator. 
+With children from Lawrence Primary School, and volunteers from Liverpool University, I made a Quipu Column with knotted cords and LED strips hanging down from a central column made from a clear HIPS pipe and an Armadillo bike lane separator. 
 
 The LED strips were fed through the pipe to a disk at the bottom and controlled by 3 [MCQN Ltd My Bikes Got LED boards](https://github.com/mcqn/my-bikes-got-led).
 
@@ -17,27 +17,27 @@ In the end I didn't use the LEDs when showing this at Wirral MakeFest, but the o
 
 #### For 50mm pipe
 
-![Corner Part](/3D_printing_and_laser_cutting_files/for_50mm_pipe/corner_part.dxf) - corner for laser cut hexagon edge shape DXF
-![Hold Bar](/3D_printing_and_laser_cutting_files/for_50mm_pipe/hold_bar.stl) - unused 3D printed side part for ropes to go attach to at the base (difficult to print)
-![New Top Part](/3D_printing_and_laser_cutting_files/for_50mm_pipe/new_top.stl)(part that fits over the top of the pipe)
-![New Wheel](/3D_printing_and_laser_cutting_files/for_50mm_pipe/new_wheel.stl) - larger diameter 3D printed part that attaches to new top part
-![Side part](/3D_printing_and_laser_cutting_files/for_50mm_pipe/side_part.dxf) - Hexagon edge parts
-![](/3D_printing_and_laser_cutting_files/for_50mm_pipe/wheel.stl)
+![Corner Part](/3D_printing_and_laser_cutting_files/for_50mm_pipe/corner_part.dxf) - corner for laser cut hexagon edge shape DXF<br>
+![Hold Bar](/3D_printing_and_laser_cutting_files/for_50mm_pipe/hold_bar.stl) - unused 3D printed side part for ropes to go attach to at the base (difficult to print)<br>
+![New Top Part](/3D_printing_and_laser_cutting_files/for_50mm_pipe/new_top.stl)(part that fits over the top of the pipe)<br>
+![New Wheel](/3D_printing_and_laser_cutting_files/for_50mm_pipe/new_wheel.stl) - larger diameter 3D printed part that attaches to new top part<br>
+![Side part](/3D_printing_and_laser_cutting_files/for_50mm_pipe/side_part.dxf) - Hexagon edge parts<br>
+![](/3D_printing_and_laser_cutting_files/for_50mm_pipe/wheel.stl)<br>
 
 #### For 48.3mm pipe
 
-![Base Clip](/3D_printing_and_laser_cutting_files/for_50mm_pipe/base_clip.stl) - Attached to base - ropes feed through and are attached underneath
+![Base Clip](/3D_printing_and_laser_cutting_files/for_50mm_pipe/base_clip.stl) - Attached to base - ropes feed through and are attached underneath<br>
 ![](/3D_printing_and_laser_cutting_files/for_50mm_pipe/base_clip_LEDs.stl) - 
-Base clips for LEDs (not currently used)
-![Corner support](/3D_printing_and_laser_cutting_files/for_50mm_pipe/corner_support.stl) - 2 of these are used to attach to previously unsupported corners of the large hexagon (in this version its screwed on to the parasol stand in 2 places)
-![MDF electric wheel](/3D_printing_and_laser_cutting_files/for_50mm_pipe/mdf_electric_wheel.dxf) - allows MCQN My Bike's Got LED boards to be attached at the base with wires or unlit LED strips going up through the pipe
-![Plugs](/3D_printing_and_laser_cutting_files/for_50mm_pipe/plug.stl) - Go through holes in the top part to allow cords to be attached with key rings
-![Separator](/3D_printing_and_laser_cutting_files/for_50mm_pipe/separator.stl) - Attaches to the cord to separate 10s and units etc.
-![10mm separator](/3D_printing_and_laser_cutting_files/for_50mm_pipe/separator_10mm.stl)
-![12mm separator](/3D_printing_and_laser_cutting_files/for_50mm_pipe/separator_12mm.stl)
+Base clips for LEDs (not currently used)<br>
+![Corner support](/3D_printing_and_laser_cutting_files/for_50mm_pipe/corner_support.stl) - 2 of these are used to attach to previously unsupported corners of the large hexagon (in this version its screwed on to the parasol stand in 2 places)<br>
+![MDF electric wheel](/3D_printing_and_laser_cutting_files/for_50mm_pipe/mdf_electric_wheel.dxf) - allows MCQN My Bike's Got LED boards to be attached at the base with wires or unlit LED strips going up through the pipe<br>
+![Plugs](/3D_printing_and_laser_cutting_files/for_50mm_pipe/plug.stl) - Go through holes in the top part to allow cords to be attached with key rings<br>
+![Separator](/3D_printing_and_laser_cutting_files/for_50mm_pipe/separator.stl) - Attaches to the cord to separate 10s and units etc.<br>
+![10mm separator](/3D_printing_and_laser_cutting_files/for_50mm_pipe/separator_10mm.stl)<br>
+![12mm separator](/3D_printing_and_laser_cutting_files/for_50mm_pipe/separator_12mm.stl)<br>
 ![Top part](/3D_printing_and_laser_cutting_files/for_50mm_pipe/top_part.stl)
-![Top part without side holes](/3D_printing_and_laser_cutting_files/for_50mm_pipe/top_part_no_side_holes.stl)
-![Wheel part for top](/3D_printing_and_laser_cutting_files/for_50mm_pipe/wheel.stl)
+![Top part without side holes](/3D_printing_and_laser_cutting_files/for_50mm_pipe/top_part_no_side_holes.stl)<br>
+![Wheel part for top](/3D_printing_and_laser_cutting_files/for_50mm_pipe/wheel.stl)<br>
 
 ### Photos
 
@@ -58,7 +58,7 @@ Base clips for LEDs (not currently used)
 
 ### Code
 
-![Arduino code for the LEDs on the original column](/code/base_sketch.ino)
+![Arduino code for the LEDs on the original column](/code/base_sketch.ino)<br>
 It was difficult to code WLED to show different numbers of lit up LEDs in different segments, and I didn't need the Wifi part, so I ended up using the boards as Arduinos. It may be simpler with the new version of WLED - to be checked. I originally had the LEDs moving, but they needed to be static for readability. 
 As the room was quite dark, the cords were hard to read when the LEDs were on full brightness - the brightness had to be reduced a lot to allow both to be read.
 
